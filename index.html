@@ -9,38 +9,51 @@
     </head>
     <body>
         <div class="image-side">
-            <img src="" alt=""> <!-- left side background image -->
             <div class="logo">
-                <img src="" alt=""> <!-- Odin logo -->
+                <img src="./img/odin-lined.png" alt="" height="100px">
                 <h1>Odin Interstellar</h1>
             </div>
-            <span class="photo-credit">Photo by TKTK</span>
+            <span class="photo-credit">Image credit: 
+                <a href="https://www.nasa.gov/image-detail/artemis-i-prelaunch-5/">NASA/Joel Kowsky</a>
+            </span>
         </div>
         <div class="form-side">
-            <div>
-                <p>TKTK</p>
-                <p>TKTK</p>
+            <div class="intro">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Obcaecati odio vel placeat reiciendis debitis totam tenetur voluptatum 
+                    dicta voluptatibus ea, ab illum veniam doloremque nam, vero animi quis 
+                    natus quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Unde dolorum, officia corrupti necessitatibus rerum delectus corporis 
+                    magnam a accusamus sapiente commodi! Temporibus praesentium earum unde 
+                    ratione sit illum, veniam id.</p>
+                <p>You <em>know</em> you want to.</p>
             </div>
-            <div>
+            <div class="signup-form">
                 <p>Let's do this!</p>
-                <form action="">
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" name="first-name">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name" name="last-name">
-                    <label for="user-email">Email</label>
-                    <input type="email" name="user-email" id="user-email">
-                    <label for="phone-number">Phone Number</label>
-                    <input type="tel" name="phone-number" id="phone-number">
-                    <label for="user-password">Password</label>
-                    <input type="password" name="user-password" id="user-password">
-                    <label for="confirm-password">Confirm Password</label>
-                    <input type="password" name="confirm-password" id="confirm-password">
+                <form action="/" method="get" id="sign-up">
+                    <div class="form-row">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Jane" required>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="user-email">Email</label>
+                        <input type="email" name="user-email" id="user-email" placeholder="name@domain.com" required>
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" name="phone-number" id="phone-number" placeholder="123 456 7890">
+                    </div>
+                    <div class="form-row">
+                        <label for="user-password">Password</label>
+                        <input type="password" name="user-password" id="user-password" minlength="8" placeholder="8 character minimum" required>
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="confirm-password" id="confirm-password" minlength="8" placeholder="8 character minimum" required>
+                    </div>
                 </form>
             </div>
-            <div>
-                <button>Create Account</button> <!-- Make sure this button goes with the above form -->
-                <p>Already have an account? <a href="/">Log in</a>.</p>
+            <div class="outro">
+                <button type="submit" form="sign-up">Create Account</button> <!-- Make sure this button goes with the above form -->
+                <p>Already have an account? <a href="/">Log in</a></p>
             </div>
         </div>
     </body>
