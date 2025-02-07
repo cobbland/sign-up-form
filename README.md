@@ -8,3 +8,5 @@ An The Odin Project project. The goal is to make a sign-up form that looks somet
 
 - [ ] Fix styling (input box highlighting, mostly)
 - [ ] Add webfonts
+- [ ] Note which fields are required
+- [ ] Make input hints persistent somehow
