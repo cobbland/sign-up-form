@@ -136,12 +136,26 @@ input {
     border-radius: 3px;
 }
 
-.form-row input:focus {
-    background-color: #10131A11;
+input:focus {
+    outline: 0;
+    border-color: #10131Add;
+    box-shadow: 1px 1px 3px #10131A77;
 }
 
 input:user-invalid {
     border-color: #ff551A;
+}
+
+input:user-invalid:focus {
+    background-color: #ff551A22;
+}
+
+input:user-valid {
+    border-color: #58708A;
+}
+
+input:user-valid {
+    background-color: #58708A22;
 }
 
 button{
@@ -152,12 +166,12 @@ button{
     background-color: #DB971A;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 2px 5px #10131A77;
+    box-shadow: 1px 2px 5px #10131A77;
 }
 
 button:hover {
     background-color: #DB971Acc;
-    box-shadow: 0px 1px 3px #10131A99;
+    box-shadow: 1px 1px 3px #10131A99;
 }
 
 button:active {
