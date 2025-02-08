@@ -7,5 +7,5 @@ An The Odin Project project. The goal is to make a sign-up form that looks somet
 ## Todo
 
 - [x] Fix styling (input box highlighting, mostly)
-- [ ] Add webfonts
+- [x] Add webfonts
 - [x] Note which fields are required
